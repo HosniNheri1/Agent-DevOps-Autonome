@@ -78,7 +78,7 @@ AWS (CloudWatch, SNS, Lambda, DynamoDB, Systems Manager, EC2/ASG/ALB, IAM, Cloud
 
 Dashboard for the autonomous DevOps agent is a self-contained monitoring UI ("Sentinel") for the agent — open it directly in a browser, no build step required.
 
-🔗 **Live dashboard:** [https://github.com/HosniNheri1/Agent-DevOps-Autonome/blob/main/Dashboard-Agent-Devops.html](https://github.com/HosniNheri1/Agent-DevOps-Autonome/blob/main/dashboard/index.html)
+🔗 **Live dashboard:** [[https://github.com/HosniNheri1/Agent-DevOps-Autonome/blob/main/Dashboard-Agent-Devops.html](https://github.com/HosniNheri1/Agent-DevOps-Autonome/blob/main/dashboard/index.html)](https://hosninheri1.github.io/Agent-DevOps-Autonome/Dashboard-Agent-Devops.html)
 
 ## Certificate
 
