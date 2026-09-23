@@ -90,10 +90,6 @@ AWS (CloudWatch, SNS, Lambda, DynamoDB, Systems Manager, EC2/ASG/ALB, IAM, Cloud
 **Hosni Nheri** — Génie des Télécommunications, ENET'COM Sfax
 Summer internship at **Smartovate LTD**, supervised by M. Abdelkhalek Bakkari
 
-## License
-
-Add a license of your choice (e.g. MIT) if you want this to be reusable by others.
-
 
 ## License
 
