@@ -6,6 +6,13 @@
 [![IaC](https://img.shields.io/badge/IaC-Terraform-844FBA)](#)
 [![Status](https://img.shields.io/badge/status-not%20deployed%20(AWS%20resources%20pending)-yellow)](#)
 
+
+## Dashboard
+
+The dashboard for the autonomous DevOps agent is a self-contained monitoring UI ("Sentinel") for the agent — open it directly in a browser, no build step required.
+
+🔗 **Live dashboard:** https://hosninheri1.github.io/Agent-DevOps-Autonome/Dashboard-Agent-Devops.html
+
 ## Overview
 
 Manual incident response on cloud infrastructure is slow and repetitive: every minute of CPU overload, a crashed service, or a bad deployment costs money and trust. This project automates the full loop — **detect → diagnose → remediate** — while guarding against runaway automation ("flapping") with a DynamoDB-based lock.
@@ -72,11 +79,6 @@ AWS (CloudWatch, SNS, Lambda, DynamoDB, Systems Manager, EC2/ASG/ALB, IAM, Cloud
 | Anti-flapping lock (second call → HTTP 429) | ✅ |
 | `terraform state list` — 39 managed resources | ✅ |
 
-## Dashboard
-
-The dashboard for the autonomous DevOps agent is a self-contained monitoring UI ("Sentinel") for the agent — open it directly in a browser, no build step required.
-
-🔗 **Live dashboard:** https://hosninheri1.github.io/Agent-DevOps-Autonome/Dashboard-Agent-Devops.html
 
 ## Certificate
 
