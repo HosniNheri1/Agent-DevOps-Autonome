@@ -78,10 +78,22 @@ AWS (CloudWatch, SNS, Lambda, DynamoDB, Systems Manager, EC2/ASG/ALB, IAM, Cloud
 
 `dashboard/index.html` is a self-contained monitoring UI ("Sentinel") for the agent — open it directly in a browser, no build step required.
 
+🔗 **Live dashboard:** [hosninheri1.github.io/Agent-DevOps-Autonome](https://hosninheri1.github.io/Agent-DevOps-Autonome/) *(enable GitHub Pages on the `/dashboard` folder — see repo Settings → Pages)*
+
+## Certificate
+
+<!-- TODO: add certificate image/PDF here, e.g.: -->
+<!-- ![Internship completion certificate](docs/certificate.png) -->
+
 ## Author
 
 **Hosni Nheri** — Génie des Télécommunications, ENET'COM Sfax
 Summer internship at **Smartovate LTD**, supervised by M. Abdelkhalek Bakkari
+
+## License
+
+Add a license of your choice (e.g. MIT) if you want this to be reusable by others.
+
 
 ## License
 
