@@ -42,7 +42,7 @@ CloudWatch Alarm → SNS Topic → Lambda (Ingestion) → Lambda (Remediation + 
 | Remediation | 3 SSM documents (`restart-service`, `scale-up`, `rollback-deployment`) |
 | Protection | DynamoDB table `remediation-locks` (PK `instance_id`, TTL on `ttl_timestamp`) |
 
-Full design details (UML use-case, sequence and class diagrams, network architecture, end-to-end data flow) are in the [internship report](docs/Rapport-de-stage.pdf).
+
 
 ## Repository structure
 
