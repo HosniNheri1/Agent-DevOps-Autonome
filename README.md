@@ -83,7 +83,7 @@ Dashboard for the autonomous DevOps agent is a self-contained monitoring UI ("Se
 ## Certificate
 
 <!-- TODO: add certificate image/PDF here, e.g.: -->
-<!-- ![Internship completion certificate](docs/certificate.png) -->
+<!-- ![Internship completion certificate](docs/certificate.pdf) -->
 
 ## Author
 
