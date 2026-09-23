@@ -1,4 +1,4 @@
-# Sentinel — Agent DevOps Autonome pour Infrastructure Auto-Réparatrice
+# Sentinel — Autonomous DevOps Agent for Self-Healing Infrastructure
 
 > Autonomous DevOps agent that detects, diagnoses, and remediates AWS infrastructure incidents without human intervention — built during a summer internship at Smartovate LTD (ENET'COM Sfax).
 
@@ -42,8 +42,6 @@ CloudWatch Alarm → SNS Topic → Lambda (Ingestion) → Lambda (Remediation + 
 | Remediation | 3 SSM documents (`restart-service`, `scale-up`, `rollback-deployment`) |
 | Protection | DynamoDB table `remediation-locks` (PK `instance_id`, TTL on `ttl_timestamp`) |
 
-
-
 ## Repository structure
 
 ```
@@ -76,28 +74,27 @@ AWS (CloudWatch, SNS, Lambda, DynamoDB, Systems Manager, EC2/ASG/ALB, IAM, Cloud
 
 ## Dashboard
 
-Dashboard for the autonomous DevOps agent is a self-contained monitoring UI ("Sentinel") for the agent — open it directly in a browser, no build step required.
+The dashboard for the autonomous DevOps agent is a self-contained monitoring UI ("Sentinel") for the agent — open it directly in a browser, no build step required.
 
-🔗 **Live dashboard:**https://hosninheri1.github.io/Agent-DevOps-Autonome/Dashboard-Agent-Devops.html
+🔗 **Live dashboard:** https://hosninheri1.github.io/Agent-DevOps-Autonome/Dashboard-Agent-Devops.html
 
 ## Certificate
 
-[Attestation de stage](docs/certificate.pdf)
+[Internship certificate](docs/certificate.pdf)
 
 ## Author
 
-**Hosni Nheri** — Génie des Télécommunications, ENET'COM Sfax
+**Hosni Nheri** — Telecommunications Engineering, ENET'COM Sfax
 Summer internship at **Smartovate LTD**, supervised by M. Abdelkhalek Bakkari
-
 
 ## License
 
-📄 Licence
+📄 License
 
-Ce projet est distribué sous la licence MIT.
-Vous pouvez librement utiliser, modifier et distribuer ce code à des fins personnelles ou commerciales, sous réserve de conserver la mention de l’auteur original.
+This project is distributed under the MIT license.
+You are free to use, modify, and distribute this code for personal or commercial purposes, provided that the original author's credit is retained.
 
-Text
+```
 MIT License
 
 Copyright (c) 2026 Hosni Nheri
@@ -119,4 +116,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
+```
